@@ -5,6 +5,8 @@ import { FaEnvelope } from '@react-icons/all-files/fa/FaEnvelope';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Tilt from 'react-parallax-tilt';
 import avatar from '../../../assets/avatar.svg';
+import myy from '../../../assets/bg.jpg'
+
 import s from './IntroSection.module.scss';
 
 const IntroSection = () => {
@@ -44,7 +46,7 @@ const IntroSection = () => {
         </div>
 
         <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
+          <LazyLoadImage alt="avatar" effect="blur" src={myy} height={350} width={350}  style={{ borderRadius: '20px' }} />
         </Tilt>
       </div>
 
